@@ -1,0 +1,61 @@
+<!--Javascriptpro_-->
+<!--Dont forget to follow me on github,codepen and instagram.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Material Icons Cdn-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <!--Stylesheet-->
+      <link rel="stylesheet" href="MusicPlayer.css">
+        <title></title>
+</head>
+
+<body>
+<div class="container">
+ <audio id="music" src=""></audio>   
+ <i class="material-icons back-btn">arrow_back_ios_new</i>
+ <p class="now-playing-txt">Now Playing</p>
+ <div class="img">
+  <img src="image5.jpg" class="image">       
+ </div>
+ <div class="title-artist">
+  <h2 class="title">Hips Don't Lie</h2>  
+  <h3 class="artist">Shakira</h3>
+ </div>
+ <div class="timing-progressbar">
+  <span class="current-time">00:00</span> 
+  <div class="progress-area">
+    <div class="progress-bar"></div>    
+  </div>
+  <span class="total-time">00:00</span> 
+ </div>
+   <i class="material-icons loop-btn">repeat</i>
+ <div class="control-btns">
+   <i class="material-icons rewind">fast_rewind</i>
+   <div class="play-pause play">
+    <i class="material-icons">play_arrow</i>
+   </div>
+   <i class="material-icons forward">fast_forward</i>
+ </div>
+ <i class="material-icons queue">queue_music</i>
+ <div class="queue-box">
+  <div class="queue-top">
+    <i class="material-icons queue-close">close</i>
+    <h4><i class="material-icons">queue_music</i>Music list</h4>
+    <div class="music-list all-music-list">
+      <!--Show All Musics Inside This Box--> 
+    </div>
+  </div>     
+ </div>
+</div>
+<!--Data.js-->
+<script src="Data.js"></script>
+<!--Music Player.js-->
+<script src="MusicPlayer.js"></script>
+</body>
+
+</html>
